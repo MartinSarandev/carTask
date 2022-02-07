@@ -2,6 +2,7 @@ package com.example.carTask.Dto;
 
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.validation.constraints.NotBlank;
@@ -9,6 +10,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+@NoArgsConstructor
 @Data
 public class OwnerDto {
 

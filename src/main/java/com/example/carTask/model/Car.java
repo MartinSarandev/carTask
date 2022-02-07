@@ -1,10 +1,15 @@
 package com.example.carTask.model;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-@Data
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 //@Table(name = "cars", uniqueConstraints = {@UniqueConstraint(columnNames = {"engine_id"})})
 public class Car {
@@ -41,6 +46,7 @@ public class Car {
                 ", number='" + number + '\'' +
                 '}';
     }
+
     //    public Car() {
 //    }
 //

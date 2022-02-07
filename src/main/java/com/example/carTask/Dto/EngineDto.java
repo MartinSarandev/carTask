@@ -1,6 +1,7 @@
 package com.example.carTask.Dto;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.context.annotation.Bean;
 
 import javax.validation.Constraint;
@@ -8,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-
+@NoArgsConstructor
 @Data
 public class EngineDto {
 

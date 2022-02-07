@@ -3,12 +3,13 @@ package com.example.carTask.Dto;
 import com.example.carTask.model.Engine;
 import com.example.carTask.model.Owner;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.validation.Constraint;
 import javax.validation.constraints.*;
 
-
+@NoArgsConstructor
 @Data
 public class CarDto {
 

@@ -1,11 +1,15 @@
 package com.example.carTask.model;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
-
-@Data
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"engineNumber"})})
 public class Engine {
